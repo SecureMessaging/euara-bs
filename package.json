@@ -15,7 +15,7 @@
   },
   "scripts": {
     "test": "tsc",
-    "release": "curl -vs http://54.204.236.95:3000/build/?project=euara-bs 2>&1"
+    "release": "curl -vs http://buildagent:3000/build/?project=euara-bs 2>&1"
   },
   "author": "",
   "license": "ISC"
