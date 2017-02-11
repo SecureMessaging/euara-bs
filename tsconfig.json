@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    //"lib": ["es6"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "noEmitHelpers": false,
+    "strictNullChecks": false,
+    "baseUrl": "./lib/euara-lib",
+    "noImplicitAny": false,
+    "declaration": true,
+    "outDir": "./dist",
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  },
+  "include": [
+    "lib/typings.td.ts",
+    "lib/**/*"
+  ],
+  "exclude": [
+    "dist"
+  ]
+}
