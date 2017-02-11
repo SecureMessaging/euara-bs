@@ -5,7 +5,7 @@
   "main": "index.js",
   "typings": "typings.d.ts",
   "dependencies": {
-    "euara-lib": "file:///home/evan/git/euara-lib/dist/euara-lib",
+    "euara-lib": "^0.0.2",
     "targz": "^1.0.1"
   },
   "devDependencies": {
